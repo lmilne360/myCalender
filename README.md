@@ -6,21 +6,29 @@ This is a starter template for [Ionic](http://ionicframework.com/docs/) projects
 
 To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
 
-### With the Ionic CLI:
+### Dependencies
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+Ionic3
+Ionic2Calender
+Angular 4
+Momentjs
+Intl
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myBlank blank
-```
+### Installation
+ To use this program you must have Nodejs 6+ and NPM 3+ Installed
 
-Then, to run it, cd into `myBlank` and run:
+ Use NPM to install the Ionic framework:
+ 	`npm install -g ionic@latest`
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+ Clone this repository then change into it's directory
 
-Substitute ios for android if not on a Mac.
+ Within the project Directory, install the Ionic2 Calendar plugin, it's INTL dependency, and Momentjs:
+ 	`npm install ionic2-calendar --save`
+	`npm install moment --save`
+	`npm install intl@1.2.5 --save`
 
+Start the program via ionic
+	`ionic serve`
+
+To view in mobile view use:
+`ionic serve --l`
